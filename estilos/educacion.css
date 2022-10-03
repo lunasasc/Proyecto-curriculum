@@ -1,0 +1,266 @@
+html{height: 100%;}
+* {margin: 0;
+        box-sizing: border-box;
+}
+
+body{
+        background-color: rgb(91, 131, 170);
+        position: relative;
+            min-height: 100vh;
+        
+        
+}
+
+header{
+    background-color: rgb(116, 160, 205);
+    height: 147px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    
+    
+    
+    
+}
+
+.home{
+    display: flex;
+    background-color: #DFECEE;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+footer{
+    background-color: rgb(116, 160, 205);
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 178px;
+    text-align: center;
+   
+    
+}
+
+
+main{
+    top: 148px ;
+    padding: 5%;
+    display: flex;
+    position: relative;
+    background-color:#DFECEE;
+    width: 100%;
+    height: 700px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    flex-direction: column;
+
+    font-weight:500;
+
+}
+
+.content-wrap{
+    padding-bottom: 178px;
+
+
+}
+
+li{
+    margin: 20px;
+    
+
+}
+
+.graduation{
+    display: flex;
+    position: relative;
+    width: 20%;
+    height: 300px;
+    background-image: url("../img/graduation.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+    left: 80%;
+    top:80px
+
+
+}
+span{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+
+}
+
+.titulo{
+    display: flex;
+    position: relative;
+    text-align: center;
+    bottom: 70px;
+    left: 43%;
+    font-size: xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+
+
+}
+
+
+#menu{
+    display: none;
+    
+}
+
+#hamburgesa{
+    display: none;
+}
+#ul{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 0;
+    padding: 0;
+    height: 5%;
+    width: 12%;
+    left:150px;
+    bottom: 105px;
+}
+#li{
+    display: block;
+    position: relative;
+    background-color: #CECECE;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid #CECECE;
+    width: 100%;
+    
+}
+#li:hover{
+    filter: brightness(110%);
+}
+
+#menu:checked ~ #ul{
+    display: block;
+}
+#menu:checked ~ #hamburgesa{
+    background-color: #CECECE;
+}
+#hamburgesa:hover{
+    background: #CECECE;
+}
+#li{
+    margin: 1px;
+}
+#hamburgesa{
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    background-color: #CECECE;
+    left:150px;
+    bottom: 103px;
+
+    
+}
+#ul{
+    display: none;
+    background-color: #CECECE;
+    
+}
+
+
+
+#navbar{
+    width: 1200px;
+
+
+}
+
+
+@media (max-width:1300px){
+    #menu{
+        display: none;
+        
+    }
+    
+    #hamburgesa{
+        display: none;
+    }
+    #ul{
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+        margin-top: 0;
+        padding: 0;
+        height: 5%;
+        width: 100px;
+        left:150px;
+        bottom: 103px;
+    }
+    #li{
+        display: block;
+        position: relative;
+        background-color: #CECECE;
+        margin: 10px;
+        padding: 10px;
+        list-style: none;
+        border-bottom: 1px solid #CECECE;
+        width: 100px;
+        
+    }
+    #li:hover{
+        filter: brightness(110%);
+    }
+    
+    #menu:checked ~ #ul{
+        display: block;
+    }
+    #menu:checked ~ #hamburgesa{
+        background-color: #CECECE;
+    }
+    #hamburgesa:hover{
+        background: #CECECE;
+    }
+    #li{
+        margin: 1px;
+    }
+    #hamburgesa{
+        position: relative;
+        box-sizing: border-box;
+        display: block;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        text-align: center;
+        user-select: none;
+        background-color: #CECECE;
+        left:150px;
+        bottom: 103px;
+    
+        
+    }
+    #ul{
+        display: none;
+        background-color: #CECECE;
+        
+    }
+    
+}
+   
+
